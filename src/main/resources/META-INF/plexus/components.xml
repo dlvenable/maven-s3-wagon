@@ -18,10 +18,10 @@
 <component-set>
   <components>
     <component>
-      <role>org.apache.maven.wagon.Wagon</role>
-      <role-hint>s3</role-hint>
-      <implementation>org.kuali.maven.wagon.S3Wagon</implementation>
-      <instantiation-strategy>per-lookup</instantiation-strategy>
+        <role>org.apache.maven.wagon.Wagon</role>
+        <role-hint>s3</role-hint>
+        <implementation>com.allogy.build.maven.S3Wagon</implementation>
+        <instantiation-strategy>per-lookup</instantiation-strategy>
     </component>
   </components>
 </component-set>
